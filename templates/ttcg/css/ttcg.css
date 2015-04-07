@@ -1,0 +1,268 @@
+a {
+	color:#9E0E03;
+}
+a:hover {
+	color:#730202;
+	text-decoration:none;
+}
+
+.small {
+	font-size:75%;
+}
+
+#top {
+	height:72px;
+}
+
+#wrapper {
+	width:980px;
+	margin:0 auto;
+	padding:20px;
+	border:1px solid #403D33;
+}
+
+#footer {
+	height:52px;
+	padding-top:20px;
+	text-align:center;
+	font-size:9px;
+	color:#A7A37E;
+}
+
+#coat_of_arms {
+	float:left;
+	padding-right:12px;
+}
+
+#title {
+	color:#403D33;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	line-height:36px;
+	font-weight:bold !important;
+	text-transform:uppercase;
+}
+
+#title form {
+	display:inline;
+}
+
+#title ul {
+	display:block;
+	margin:0;
+	padding:0 0 32px 0;
+	font-size:10px;
+	font-weight:normal;
+	list-style:none;
+	line-height:12px;
+	text-transform:lowercase;
+}
+
+#title ul li {
+	float:left;
+	padding-right:18px;
+}
+
+#title ul li.right {
+	float:right;
+	padding:0 0 0 18px;
+}
+
+#title input,
+#title select {
+	color:#403D33;
+	font-size:10px;
+}
+
+#home {
+	float:left;
+	clear:both;
+	width:980px;
+	min-height:200px;
+	margin:6px 0;
+	padding-bottom:25px;
+	background-image: url(/n/templates/ttcg/images/frontpage/knowsley.JPG);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#home .menu {
+	height:24px;
+	border-bottom:2px solid #730202;
+	background-color:#9E0E03;
+	color:#CCC2A3;
+	font-size:11px;
+	font-weight:bold;
+}
+
+#home .menu,
+#home .menu ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:24px;
+	z-index:999;
+}
+
+#home .menu a {
+	display:block;
+	width:auto;
+	color:#EFECCA;
+	text-decoration:none;
+}
+
+#home .menu a:hover {
+	text-decoration:none;
+	color:#7F7966;
+}
+
+#home .menu li {
+	float:left;
+	width:auto;
+	margin:0;
+	padding:0 10px;
+	white-space:nowrap;
+}
+
+#home .menu li ul {
+	position:absolute;
+	border-left:1px solid #730202;
+	border-bottom:3px solid #730202;
+	border-right:3px solid #730202;
+	background-color:#9E0E03;
+	width:auto;
+	left:-999em;
+}
+
+#home .menu li ul li {
+	float:left;
+	clear:both;
+	width:auto;
+	padding:0 10px;
+	white-space:nowrap;
+}
+
+#home .menu li:hover ul {
+	left:auto;
+}
+
+#home .column {
+	float:right;
+	width:279px;
+	height:526px;
+	margin:25px 25px 0 0;
+	opacity:0.9;
+	padding:10px;
+	border-top: 1px solid #8C8274;
+	border-right: 3px solid #8C8274;
+	border-bottom: 3px solid #8C8274;
+	border-left: 1px solid #8C8274;
+	background-color:#F2F2F2;
+	color:#403D33;
+	overflow:hidden;
+	font-size:10px;
+	text-align:justify;
+	z-index:1;
+}
+
+#home .contentheading {
+	width:277px;
+	padding-left:4px;
+	border-bottom:2px solid #590000;
+	background-color:#8C0000;
+	color:#CCC2A3;
+	text-transform:uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+#photo_description {
+	clear:both;
+	padding-bottom:2em;
+	color:#A7A37E;
+	font-size:9px;
+	line-height:12px;
+}
+
+.breadcrumbs {
+	display:block;
+	width:100%;
+	font-size:11px;
+	margin-bottom:1em;
+}
+
+.breadcrumbs ul {
+	margin:1em 0;
+	padding:0;
+	list-style:none;
+}
+
+.breadcrumbs ul li {
+	display:inline;
+}
+
+.breadcrumbs ul li a {
+}
+
+#component {
+	width:980px;
+	border-bottom:3px solid #efecca;
+	background: url(/img/p_bg.jpg) no-repeat left top;
+	color:#002F2F;
+	font-size:12px;
+	line-height:16px;
+}
+
+#component {
+	background: url(/n/templates/ttcg/images/bg_component.jpg) no-repeat left top;
+}
+
+#component .componentheading {
+	display:block;
+	width:972px;
+	margin:0 0 1em 0;
+	padding-left:8px;
+	border-bottom:2px solid #590000;
+	background-color:#8C0000;
+	color:#CCC2A3;
+	text-transform:uppercase;
+	font: bold 18px Georgia, "Times New Roman", Times, serif;
+}
+
+#component .componentheading:first-letter {
+	font-size:200%;
+}
+
+#component .contentheading,
+#component .buttonheading {
+	margin:0 0 1em 0;
+	padding-left:8px;
+	border-bottom:2px solid #590000;
+	text-transform:uppercase;
+	font: bold 14px Georgia, "Times New Roman", Times, serif;
+}
+
+#component .contentheading:first-letter {
+	font-size:200%;
+}
+
+#component .contentpaneopen .createdate {
+	font-size:75%;
+}
+
+#component .contentpaneopen p {
+	padding:0 8px 1em 8px;
+}
+
+#component .contentpaneopen ul {
+	list-style:disc;
+	margin-left:1em;
+	padding-left:1em;
+}
+
+#component .contentpaneopen ul ul {
+	list-style:circle;
+	margin-left:1em;
+	padding-left:1em;
+}
+

@@ -1,0 +1,54 @@
+<?php
+class JConfig {
+	var $offline = '0';
+	var $editor = 'tinymce';
+	var $list_limit = '20';
+	var $helpurl = 'http://help.joomla.org';
+	var $debug = '0';
+	var $debug_lang = '0';
+	var $sef = '1';
+	var $sef_rewrite = '1';
+	var $sef_suffix = '0';
+	var $feed_limit = '10';
+	var $secret = '4qu3PzplrZPLvgiA';
+	var $gzip = '0';
+	var $error_reporting = '-1';
+	var $xmlrpc_server = '0';
+	var $log_path = '/home/ttcgtoro/public_html/logs';
+	var $tmp_path = '/home/ttcgtoro/public_html/tmp';
+	var $live_site = '';
+	var $offset = '-5';
+	var $caching = '0';
+	var $cachetime = '15';
+	var $cache_handler = 'file';
+	var $memcache_settings = array();
+	var $ftp_enable = '0';
+	var $ftp_host = 'ttcgtoronto.gov.tt';
+	var $ftp_port = '21';
+	var $ftp_user = 'congen_joomla@ttcgtoronto.com.com';
+	var $ftp_pass = 'CRAB6mU82u4eC';
+	var $ftp_root = '/';
+	var $dbtype = 'mysql';
+	var $host = 'localhost';
+	var $user = 'ttcgtoro_joomla';
+	var $db = 'ttcgtoro_joomla';
+	var $dbprefix = 'jos_';
+	var $mailer = 'mail';
+	var $mailfrom = 'congen@ttcgtoronto.gov.tt';
+	var $fromname = 'Trinidad & Tobago Consulate General Toronto';
+	var $sendmail = '/usr/sbin/sendmail';
+	var $smtpauth = '0';
+	var $smtpuser = '';
+	var $smtppass = '';
+	var $smtphost = 'localhost';
+	var $MetaAuthor = '1';
+	var $MetaTitle = '1';
+	var $lifetime = '15';
+	var $session_handler = 'database';
+	var $password = 'wE7EwufrA95aQuwa';
+	var $sitename = 'The Consulate General for the Republic of Trinidad &amp; Tobago';
+	var $MetaDesc = 'Welcome to the Republic of Trinidad and Tobago’s Toronto home page. Here you will find information about the services provided by the High Commission in Ottawa, the Consulate-General in Toronto,  the Trinidad and Tobago (Region-Canada) Tourism Office,  and Provincial Honorary Consulates. You will also find links to other useful and interesting Trinidad and Tobago websites.';
+	var $MetaKeys = 'Toronto Consulate General, Consulate General Toronto, TT Consulate, Trinidad and Tobago, Trinidad and Tobago Consulate, T&amp;T, Trinidad, Tobago, Caribbean, Caribbean Government, Trinidad and Tobago Links';
+	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
+}
+?>

@@ -1,0 +1,63 @@
+* { margin:0; padding:0; }
+html,
+body { height:100%; }
+html { }
+body { background:#fff; font:12px/1.5 helvetica, arial, sans-serif; color:#000; text-align:left; }
+img { border:0; vertical-align:top; }
+a { }
+a:hover { }
+:focus { outline:0; }
+p { margin-bottom:1em; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { margin:2em 0 1em 0; }
+h1 { font-size:24px; font-weight:bold; line-height:1.3; }
+h2 { font-size:18px; font-weight:bold; line-height:1.34; }
+h3, caption { font-size:16px; font-weight:bold; line-height:1.375; }
+h4 { font-size:14px; font-weight:bold; }
+h5 { font-size:12px; font-weight:bold; }
+h6 { font-size:11px; font-weight:bold; }
+
+/* Forms */
+form { }
+fieldset { border:0; }
+legend { display:none; }
+
+/* Table */
+table { border:0; border-collapse:collapse; border-spacing:0; empty-cells:show; font-size:100%; }
+th { vertical-align:top; text-align:left; font-weight:normal; }
+td { vertical-align:top; }
+
+/* Content */
+address { font-style:normal; }
+cite { font-style:normal; }
+q,
+blockquote { quotes:none; }
+q:before,
+q:after { content:''; }
+small,
+big { font-size:1em; }
+sup { font-size:1em; vertical-align:top; }
+
+/* Lists */
+ul,
+ol { list-style:none; }
+
+/* Cursors */
+abbr { cursor:help; }
+
+/* Tools */
+.nobr { white-space:nowrap !important; }
+.wrap { white-space:normal !important; }
+.a-left { text-align:left !important; }
+.a-center { text-align:center !important; }
+.a-right { text-align:right !important; }
+.v-middle { vertical-align:middle; }
+.left { float:left !important; }
+.right { float:right !important; }
+.f-none { float:none !important; }
+.f-fix { float:left; width:100%; }
+.no-display { display:none; }
+.no-margin { margin:0 !important; }
+.no-padding { padding:0 !important; }
+.no-bg { background:none !important; }

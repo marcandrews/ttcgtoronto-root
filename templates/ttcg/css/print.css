@@ -1,0 +1,165 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font: normal 12px/1.5em Tahoma, Geneva, sans-serif;
+}
+
+a {
+	color:blue;
+	text-decoration:underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-transform:capitalize;
+	page-break-after:avoid;
+}
+
+p {
+	margin-bottom:1em;
+}
+
+ul,
+ol {
+	margin:0 0 0.5em 1em;
+	padding-left:1em;
+	line-height:1.5em;
+}
+
+ul {
+	list-style:disc;
+}
+
+ul ul {
+	list-style:circle;
+}
+
+ol {
+	list-style:decimal;
+}
+
+ol ol {
+	list-style:lower-alpha;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#coat_of_arms {
+	float:left;
+	padding-right:12px;
+}
+
+#title {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#title h1 {
+	margin:0;
+	padding:12px 0 3px;
+	font-weight:bold !important;
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+#title ul {
+	font-size:10px;
+	line-height:14px;
+	clear:right;
+}
+
+#title ul li {
+	float:left;
+	padding-right:12px;
+}
+
+#title li.right {
+	display:none;
+}
+
+#home ul.menu,
+#photo_description {
+	display:none;
+}
+
+.breadcrumbs {
+	float:left;
+	clear:both;
+	padding:2em 0 0 0;
+	font-size:75%;
+}
+
+.breadcrumbs a {
+	color:black;
+	text-decoration:none;
+}
+
+#component {
+	float:left;
+	clear:both;
+}
+
+#component .componentheading,
+#component .contentheading {
+	margin-top:0;
+	width:100%;
+	border-bottom:1px solid black;
+	font-size:200%;
+}
+
+#component .buttonheading {
+	display:none;
+}
+
+#component a:link:after,
+#component a:visited:after {
+	content: " (" attr(href) ") ";
+	font-style:normal;
+	font-size:75%;
+}
+#component a[href^="/"]:after {
+	content: " (http://www.ttconsulatetoronto.com" attr(href) ") ";
+}
+#component a[href*="#"]:after {
+	content: "";
+}
+#component a[href*="#"] {
+	text-decoration:none
+}
+
+#content abbr:after {
+	content: " (" attr(title) ") ";
+	font-variant:normal;
+}
+
+#top_link {
+	display:none;
+}
+
+#footer {
+	float:left;
+	clear:both;
+	width:100%;
+	margin-top:3em;
+	border-top:2px solid black;
+	font-size:75%;
+	page-break-before:avoid;
+}
